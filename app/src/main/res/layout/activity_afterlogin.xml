@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".afterlogin">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/calc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="10sp"
+            android:columnCount="3"
+            android:rowCount="10">
+
+            <Button
+                android:id="@+id/roll1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll1"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll2"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll3"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll3"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll4"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll4"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll5"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll5"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll6"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll6"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll7"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll7"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll8"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll8"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll9"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll9"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll10"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll10"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll11"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll11"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll12"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll12"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll13"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll13"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll14"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll14"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll15"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll15"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll16"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll16"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll17"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll17"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll18"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll18"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll19"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll19"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll20"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll20"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll21"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll21"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll22"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll22"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll23"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll23"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll24"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll24"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll25"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll25"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll26"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll26"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll27"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll27"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll28"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll28"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll29"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll29"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll30"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll30"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll31"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll31"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll32"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll32"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll33"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll33"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll34"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll34"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll35"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll35"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll36"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll36"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/roll37"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="2sp"
+                android:backgroundTint="@color/gray"
+                android:text="roll37"
+                android:textSize="18sp" />
+
+        </GridLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <TextView
+        android:id="@+id/person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Select present students"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/presentStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="27dp"
+        android:text="Total Students Present : "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/person"
+        app:layout_constraintTop_toTopOf="@+id/person" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
